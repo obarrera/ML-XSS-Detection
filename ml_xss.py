@@ -143,18 +143,19 @@ for i in range(len(Xnew)):
     #print(ynew4[i])
     #print(ynew5[i])
     #print(ynew6[i])
-    #print(score)
+    print()
+    print(score)
     if score >= .5:
-        #print("\033[1;31;1mXSS\033[0;0m => "+testXSS[i])
+        print("\033[1;31;1mXSS\033[0;0m => "+testXSS[i])
         xssCount += 1
     else:
-        print(ynew1[i])
-        print(ynew2[i])
-        print(ynew3[i])
-        print(ynew4[i])
-        print(ynew5[i])
-        print(ynew6[i])
-        print(score)
+        #print(ynew1[i])
+        #print(ynew2[i])
+        #print(ynew3[i])
+        #print(ynew4[i])
+        #print(ynew5[i])
+        #print(ynew6[i])
+        #print(score)
         print("\033[1;32;1mNOT XSS\033[0;0m => "+testXSS[i])
         notXssCount += 1
 
