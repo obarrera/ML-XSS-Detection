@@ -1,0 +1,17 @@
+click==7.1.2
+gensim==4.0.1
+joblib==1.0.1
+nltk==3.5
+numpy==1.20.2
+pandas==1.2.3
+python-dateutil==2.8.1
+python-Levenshtein==0.12.2
+pytz==2021.1
+regex==2021.3.17
+scikit-learn==0.24.1
+scipy==1.6.2
+six==1.15.0
+sklearn==0.0
+smart-open==5.0.0
+threadpoolctl==2.1.0
+tqdm==4.59.0
